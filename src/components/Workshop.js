@@ -1,23 +1,24 @@
 import React,{useRef} from 'react';
+import {Link} from 'react-router-dom';
 
 // import about data
-import { aboutData } from '../data';
+import { WorkshopData } from '../data';
 
-const About = () => {
+const Workshop= () => {
   // destructure about
-  const { image, title, subtitle } = aboutData;
+  const { image, title, subtitle } = WorkshopData;
   let myref = useRef();
   return (
     <section
       className='my-[30px] mt-[100px]'
-      data-aos='fade-up'
+      data-aos='fade-down'
       data-aos-offset='350'
       id="#About"
       ref={myref}
     >
       <div className='container mx-auto'>
-        <div className='bg-green-100 rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
-          <div className='flex-1' data-aos='zoom-in-left'>
+        <div className='bg-blue-100 rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1' data-aos='zoom-in-right'>
             <img src={image} alt='' />
           </div>
           <div className='flex-1 xl:pr-12'>
@@ -26,11 +27,14 @@ const About = () => {
             </h2>
             <p
               className='max-w-[474px] mx-auto xl:mx-0'
-              data-aos='fade-up'
+              data-aos='fade-down'
               data-aos-delay='400'
             >
               {subtitle}
             </p>
+           <div><button  class="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+  Know More
+</button></div>
           </div>
         </div>
       </div>
@@ -38,4 +42,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Workshop;
