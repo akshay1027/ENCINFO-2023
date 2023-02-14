@@ -43,11 +43,3 @@ const App = () => {
 };
 
 export default App;
-
-{/* <Header />
-      <Hero />
-      <About />
-      <Workshop />
-      <Events />
-      <Footer /> */}
-
