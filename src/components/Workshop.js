@@ -33,7 +33,7 @@ const Workshop = () => {
               {subtitle}
             </p>
             <a href="/workshop">
-              <button class="bg-blue-400 hover:bg-blue-700 mt-10 text-white font-bold py-2 px-4 rounded-full">
+              <button class="bg-violet-400 hover:bg-violet-700 mt-10 text-white font-bold py-2 px-4 rounded-full">
                 Know More
               </button>
             </a>
