@@ -1,10 +1,10 @@
-import React,{useRef} from 'react';
-import {Link} from 'react-router-dom';
+import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 // import about data
 import { WorkshopData } from '../data';
 
-const Workshop= () => {
+const Workshop = () => {
   // destructure about
   const { image, title, subtitle } = WorkshopData;
   let myref = useRef();
@@ -17,7 +17,7 @@ const Workshop= () => {
       ref={myref}
     >
       <div className='container mx-auto'>
-        <div className='bg-blue-100 rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+        <div className='bg-violet-100 rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
           <div className='flex-1' data-aos='zoom-in-right'>
             <img src={image} alt='' />
           </div>
@@ -32,9 +32,11 @@ const Workshop= () => {
             >
               {subtitle}
             </p>
-           <div><button  class="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-  Know More
-</button></div>
+            <a href="/workshop">
+              <button class="bg-blue-400 hover:bg-blue-700 mt-10 text-white font-bold py-2 px-4 rounded-full">
+                Know More
+              </button>
+            </a>
           </div>
         </div>
       </div>
