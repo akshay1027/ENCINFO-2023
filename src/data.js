@@ -24,6 +24,7 @@ import pushup from '../src/assets/img/events/pushup.png';
 import lyric from '../src/assets/img/events/lyric.png';
 import shortfilm from '../src/assets/img/events/shortfilm.png';
 import reel from '../src/assets/img/events/reel.png';
+import about from '../src/assets/img/events/about.png';
 
 //import other images
 
@@ -58,7 +59,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  image: AboutImg,
+  image: about,
   title: 'About',
   subtitle:
     'A 2-Day Electonics and Communication Engineering Techincal Symposium',
@@ -82,7 +83,7 @@ export const EsportseventsData = {
       title: 'Valorant',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
@@ -91,7 +92,7 @@ export const EsportseventsData = {
       title: 'Fifa',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '600',
     },
     {
@@ -100,7 +101,7 @@ export const EsportseventsData = {
       title: 'Pubg',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
   ],
@@ -117,7 +118,7 @@ export const TechnicaleventsData = {
       title: 'Technical Quiz',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
@@ -126,7 +127,7 @@ export const TechnicaleventsData = {
       title: 'Line Follower/Robo Race',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '600',
     },
     {
@@ -135,7 +136,7 @@ export const TechnicaleventsData = {
       title: 'Circuit Debugging',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
   ],
@@ -152,7 +153,7 @@ export const CulturaleventsData = {
       title: 'Solo Singing',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
@@ -161,7 +162,7 @@ export const CulturaleventsData = {
       title: 'Group Dance',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '600',
     },
     {
@@ -170,7 +171,7 @@ export const CulturaleventsData = {
       title: 'Adapt Tunes',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
   ],
@@ -186,7 +187,7 @@ export const LiteraryeventsData = {
       title: 'Just a Minute',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
@@ -195,7 +196,7 @@ export const LiteraryeventsData = {
       title: 'Pot Pourri',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '600',
     },
   ],
@@ -211,7 +212,7 @@ export const NontechnicaleventsData = {
       title: 'Movie Quiz',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
@@ -220,7 +221,7 @@ export const NontechnicaleventsData = {
       title: 'Series Quiz',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '600',
     },
     {
@@ -229,7 +230,7 @@ export const NontechnicaleventsData = {
       title: 'Treasure Hunt',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -238,7 +239,7 @@ export const NontechnicaleventsData = {
       title: 'Reels',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -247,7 +248,7 @@ export const NontechnicaleventsData = {
       title: 'Photography',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -256,7 +257,7 @@ export const NontechnicaleventsData = {
       title: 'Short Film',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -265,7 +266,7 @@ export const NontechnicaleventsData = {
       title: 'Pushup Challenge',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -274,7 +275,7 @@ export const NontechnicaleventsData = {
       title: 'Meme Mania',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
@@ -283,7 +284,7 @@ export const NontechnicaleventsData = {
       title: 'Lyric Finding',
       description:
         'Loading ....',
-      linkText: 'Learn more',
+      linkText: 'Register Here',
       delay: '800',
     },
   ],
