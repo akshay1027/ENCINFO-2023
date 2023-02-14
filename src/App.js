@@ -12,7 +12,8 @@ import Events from './components/events';
 // import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { Route, Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Googleform from './components/googleformtest';
 
 const App = () => {
   // animate on scroll initialization
@@ -21,17 +22,16 @@ const App = () => {
     offset: 0,
   });
   return (
-    // <div className='overflow-hidden'>
-    <Router>
-      <Route path='/' element={<Header />} />
-      <Route path='/' element={<Hero />} exact />
-      <Route path='/' component={About} exact />
-      <Route path='/' component={Workshop} exact />
-      <Route path='/' component={Events} exact />
-      <Route path='/' component={Footer} exact />
+    <div className='overflow-hidden'>
+      <Header />
+    <Routes>
+      
+      <Route exact path='/' element={<><Hero/><About/><Workshop/><Events/></>} />
+      
 
-      <Route path='/workshop' component={Workshop} exact />
-    </Router>
+      <Route exact path='/workshop' element={<Googleform/>} />
+    </Routes>
+    <Footer/>
     // </div>
   );
 };
