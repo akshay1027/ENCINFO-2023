@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
 
 // import about data
 import { WorkshopData } from '../data';

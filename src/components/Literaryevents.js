@@ -1,27 +1,19 @@
 import React from 'react';
 
 // import features data
-import { TechnicaleventsData } from '../data';
+import { LiteraryeventsData } from '../data';
 
 // import icons
 import { BsArrowRight } from 'react-icons/bs';
 
-const TechnicalEvents = () => {
+const Literaryevents = () => {
   // destructure features data
-  const { title, subtitle, list } = TechnicaleventsData;
+  const { title, subtitle, list } = LiteraryeventsData;
   return (
     <section className='my-[70px] xl:my-[150px]'>
       <div className='container mx-auto'>
         {/* text */}
         <div className='text-center'>
-        <h1
-            className='mb-6 xl:mb-12 font-bold text-4xl text-red-700 dark:text-white'
-            data-aos='fade-down'
-            data-aos-delay='100'
-          >
-            EVENTS LISTS
-          </h1>
-       
           <h1
             className='mb-6 xl:mb-12 font-bold text-2xl dark:text-white'
             data-aos='fade-down'
@@ -86,4 +78,4 @@ const TechnicalEvents = () => {
   );
 };
 
-export default TechnicalEvents;
+export default Literaryevents;
