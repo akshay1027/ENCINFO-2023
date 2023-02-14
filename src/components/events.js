@@ -45,7 +45,7 @@ const Features = () => {
                 data-aos-delay={delay}
               >
                 {/* bg image */}
-                <div className='hidden xl:flex absolute top-0 right-0 -z-10'>
+                <div className='xl:flex absolute top-0 right-0 -z-10'>
                   <img src={bgImage} />
                 </div>
 

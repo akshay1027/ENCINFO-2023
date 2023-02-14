@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 // import components
 import Hero from './components/Hero';
 import About from './components/About';
+import Workshop from './components/Workshop';
 import Events from './components/events';
 // import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
@@ -22,7 +23,9 @@ const App = () => {
     <div className='overflow-hidden'>
       <Header />
       <Hero />
+      {/* <Testimonials /> */}
       <About />
+      <Workshop /> 
       <Events />
       <Footer />
     </div>

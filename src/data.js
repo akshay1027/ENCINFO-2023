@@ -44,6 +44,13 @@ export const aboutData = {
     'events dnjkfnjwek ada.dkwlfj dsldfkwlfkwjfewe sl;kfelkfj slm;fsdldkfqem lfkekefeklrfe',
 };
 
+export const WorkshopData = {
+  image: AboutImg,
+  title: 'Workshop',
+  subtitle:
+    'Workshops dnjkfnjwek ada.dkwlfj dsldfkwlfkwjfewe sl;kfelkfj slm;fsdldkfqem lfkekefeklrfe',
+};
+
 export const eventsData = {
   title: 'Events',
   subtitle:
@@ -65,7 +72,7 @@ export const eventsData = {
       description:
         'We offer sale of products through the Internet..',
       linkText: 'Learn more',
-      delay: '700',
+      delay: '600',
     },
     {
       image: Feature3Img,
@@ -74,7 +81,7 @@ export const eventsData = {
       description:
         'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
       linkText: 'Learn more',
-      delay: '1000',
+      delay: '800',
     },
     {
       image: Feature4Img,
@@ -83,10 +90,12 @@ export const eventsData = {
       description:
         'In our app you can see the delay time of your order...',
       linkText: 'Learn more',
-      delay: '1300',
+      delay: '1000',
     },
   ],
 };
+
+
 
 export const testimonialsData = [
   {
