@@ -24,15 +24,21 @@ const App = () => {
   return (
     <div className='overflow-hidden'>
       <Header />
-    <Routes>
-      
-      <Route exact path='/' element={<><Hero/><About/><Workshop/><Events/></>} />
-      
+      <Routes>
+        <Route exact path='/' element={
+          <>
+            <Hero />
+            <About />
+            <Workshop />
+            <Events />
+          </>
+        }
+        />
 
-      <Route exact path='/workshop' element={<Googleform/>} />
-    </Routes>
-    <Footer/>
-    // </div>
+        <Route exact path='/workshop' element={<Googleform />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 };
 
