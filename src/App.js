@@ -12,6 +12,7 @@ import Events from './components/events';
 // import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import { Route, Router } from 'react-router-dom';
 
 const App = () => {
   // animate on scroll initialization
@@ -20,16 +21,27 @@ const App = () => {
     offset: 0,
   });
   return (
-    <div className='overflow-hidden'>
-      <Header />
-      <Hero />
-      {/* <Testimonials /> */}
-      <About />
-      <Workshop /> 
-      <Events />
-      <Footer />
-    </div>
+    // <div className='overflow-hidden'>
+    <Router>
+      <Route path='/' element={<Header />} />
+      <Route path='/' element={<Hero />} exact />
+      <Route path='/' component={About} exact />
+      <Route path='/' component={Workshop} exact />
+      <Route path='/' component={Events} exact />
+      <Route path='/' component={Footer} exact />
+
+      <Route path='/workshop' component={Workshop} exact />
+    </Router>
+    // </div>
   );
 };
 
 export default App;
+
+{/* <Header />
+      <Hero />
+      <About />
+      <Workshop />
+      <Events />
+      <Footer /> */}
+

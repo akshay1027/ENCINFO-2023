@@ -8,7 +8,7 @@ const Footer = () => {
         <div class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
           <div class="flex flex-wrap items-center justify-between md:flex-nowrap">
             <div class="w-full space-x-12 flex justify-center text-gray-300 sm:w-7/12 md:justify-start">
-              <ul role="list" class="space-y-8">
+              <ul class="space-y-8">
                 <li>
                   <a href="#" class="text-white flex items-center space-x-3 hover:text-sky-400 transition">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
