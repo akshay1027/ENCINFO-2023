@@ -26,14 +26,13 @@ const googleform = () => {
                 <div className='flex-1 xl:pr-12'>
 
                   <ul className="list-outside py-3 text-left" data-aos='fade-right'>
-                    <li className="py-3 text-2xl text-violet-700 font-semibold">Best suited for: All B.Tech/B.E/BCA also</li>
+                    <li className="py-3 text-2xl text-violet-700 font-semibold">Best Suited For Everyone (Beginners to Professionals)</li>
                     <li className="py-3">The focus of the training session is to give students hands-on experience on drone construction and flying, from concept initiation to building a drone.</li>
                     <li className="py-3 font-medium">- Introduction and Fundamentals of aviation and UAVs</li>
                     <li className="py-3 font-medium">- Drone electronics</li>
                     <li className="py-3 font-medium">- Assembly and manual construction</li>
                     <li className="py-3 font-medium">- Drone prototyping</li>
                     <li className="py-3 font-medium">- Stability and control </li>
-                    <li className="py-3 font-medium">- Assembly and manual construction </li>
                     <li className="py-3 font-medium">- Flight testing</li>
                   </ul>  </div>
               </div>
@@ -71,6 +70,7 @@ const googleform = () => {
                   <h1 className="text-lg text-left py-3 font-medium"> Students from other colleges who are interested in attending this workshop are invited.</h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
                     <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 750 (INR) per person </li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">Last date for registration - 17th February 2023 evening 5pm</li>
                     <li className="py-3 text-left font-medium">Topic: Drone making</li>
                     <li className="py-3 text-left font-medium">Venue: Puducherry Technological University - ECE Department</li>
                     <li className="py-3 text-left font-medium">Time: 9:00 am to 5:00 pm</li>
@@ -101,8 +101,8 @@ const googleform = () => {
                 <li className="py-3 text-left">1.Devarajan I- 887080847</li>
                 <li className="py-3 text-left">2.Praveene R- 84387 78446</li>
                 <li className="py-3 text-left">3.Ohm Nandha c- 9500558210</li>
-                <li className="py-3 text-left">3.Aravind S- 8610228597</li>
-                <li className="py-3 text-left">3.Natramizh S- 96293 00971</li>
+                <li className="py-3 text-left">4.Aravind S- 8610228597</li>
+                <li className="py-3 text-left">5.Natramizh S- 96293 00971</li>
               </ul>
             </div>
           </div>

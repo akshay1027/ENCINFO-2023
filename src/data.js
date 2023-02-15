@@ -24,6 +24,7 @@ import pushup from '../src/assets/img/events/pushup.png';
 import lyric from '../src/assets/img/events/lyric.png';
 import shortfilm from '../src/assets/img/events/shortfilm.png';
 import reel from '../src/assets/img/events/reel.png';
+import paper from '../src/assets/img/events/paper.png';
 // import about from '../src/assets/img/events/about.svg';
 
 //import other images
@@ -51,7 +52,7 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: `ENCINFO-2023`,
+  title: `ENC INFO - 2023`,
   subtitle:
     'CRYPTOCON',
   btnText: 'Know More',
@@ -61,8 +62,9 @@ export const heroData = {
 export const aboutData = {
   image: about,
   title: 'About',
+  qoute:'"All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents."',
   subtitle:
-    'A 2-Day Electonics and Communication Engineering Techincal Symposium',
+    'The department of Electronics and Communication takes immense pride in organising the technical symposium "ENC INFO". ENC INFO is the brainchild of the collection of brightest brains in India. All for the engineering students out there. Here is your one stop ticket to ignite learning and showcase your skills and knowledge in fun, practical and innovative ways. The ENC INFO 2K23  ',
 };
 
 export const WorkshopData = {
@@ -84,6 +86,7 @@ export const EsportseventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLScKcYS1JkiAOdAN4_7oywEFyZhUC2apDJHNTPXPzlXA8P65gw/viewform',
       delay: '400',
     },
     {
@@ -93,15 +96,17 @@ export const EsportseventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSd0JJoYGR-jy5jV77zhqwmpR6hBsl0yzlmx9R1MeVXifodlTQ/viewform',
       delay: '600',
     },
     {
       image: pubg,
       bgImage: Feature3BgImg,
-      title: 'Pubg',
+      title: 'Bgmi',
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSd5Res6ZQrRIF-8AhSDU4YuHPfPm9IqVUygW13VXx5FN0dOZg/viewform',
       delay: '800',
     },
   ],
@@ -119,15 +124,17 @@ export const TechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSfLRaJaRYjskE71eJBxDgHBnk3PxebxaM0H681KU2-c028sXw/viewform',
       delay: '400',
     },
     {
       image: robo,
       bgImage: Feature2BgImg,
-      title: 'Line Follower/Robo Race',
+      title: 'Line Follower||Robo Race',
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSfkCC4Mzmg_dUqaP4AKeT5QurnKVjjzhWW40-xoBN_N-4RQHA/viewform',
       delay: '600',
     },
     {
@@ -137,6 +144,17 @@ export const TechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSf3DHsisZ1rhUdQ7WzJ1WqKV6owg-z7WI1-vFG9bDBfErSZ9w/viewform',
+      delay: '800',
+    },
+    {
+      image: paper,
+      bgImage: Feature4BgImg,
+      title: 'Paper Presentation',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSdtY5UgiC2Vd2EomvauZ-lLtS5rdqQBkobHUPHUlmg7OZPE8w/viewform',
       delay: '800',
     },
   ],
@@ -150,10 +168,11 @@ export const CulturaleventsData = {
     {
       image: solosinging,
       bgImage: Feature1BgImg,
-      title: 'Solo Singing',
+      title: 'Variety variety Solo',
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/1dRDv82FpdCqAmq3k6uhq3nVF3FtcXbjzZxXe0D-GXGA/viewform',
       delay: '400',
     },
     {
@@ -163,6 +182,7 @@ export const CulturaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSeCY1Y-SmVltcZ7xgEaIdcsLnVZ_NMVYTBpNYn4C5iklDFGlw/viewform',
       delay: '600',
     },
     {
@@ -172,6 +192,7 @@ export const CulturaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSc7sZA7HACjsc4B0DkXncakyt29HlYdSI-haakowOD_1ir3ZA/viewform',
       delay: '800',
     },
   ],
@@ -188,6 +209,7 @@ export const LiteraryeventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSdYtDJO_p_Ds0xP0KVwRIMXJd8TAQnGPAzGxGnihtrlkFRVyA/viewform',
       delay: '400',
     },
     {
@@ -197,12 +219,13 @@ export const LiteraryeventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSe3jkn027zq1QNk0PXWAdXC2OmlLRMnj12ahlIABwa04xv-IA/viewform',
       delay: '600',
     },
   ],
 };
 export const NontechnicaleventsData = {
-  title: 'Nontechnical Events',
+  title: 'Non-Technical Events',
   subtitle:
     'Stay Tuned!',
   list: [
@@ -213,6 +236,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSc29MgOppJ-5iSirJX2CZ0GF8JS4rKNFA5mUVc6C4K4qnpNzg/viewform',
       delay: '400',
     },
     {
@@ -222,6 +246,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSdLOt43J7GmI2meuw6J5fpSidI6Oi904QmM2XMZefI2rBbUuw/viewform',
       delay: '600',
     },
     {
@@ -231,6 +256,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSeYlaBTh0OhWObOqfEIvYEAVpdWjmDw_K9Ydr5MEUyx4Tfuig/viewform',
       delay: '800',
     },
     {
@@ -240,6 +266,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSfRvvVmdr2uUHogsXoY8KsQ_QWHqsWcZ6lsXT4_vwsabN_Jvg/viewform',
       delay: '800',
     },
     {
@@ -249,6 +276,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSd367yGRKbwk4F8E4Hb4O6USPImpOzQnQhTetXsjqPTI7VVow/viewform',
       delay: '800',
     },
     {
@@ -258,6 +286,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSf82N7t_9JEdLe4Gur8WpLXLG7cMTNOshUXY7o5IWkffhhM3g/viewform',
       delay: '800',
     },
     {
@@ -267,6 +296,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSc5LOn_KwQm7bmrhUUqs8ZUvQtwAfzXVYe0BVOxl1_62kmgaA/viewform',
       delay: '800',
     },
     {
@@ -276,6 +306,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSdHf1usxtjGZdL3OXINeAgdSGXImeqdQPO6_KbKkhQ3FD4KSg/viewform',
       delay: '800',
     },
     {
@@ -285,6 +316,7 @@ export const NontechnicaleventsData = {
       description:
         'Loading ....',
       linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSc9tdygCcjv45gb0arsH8lig2UpXmP0yY5GNknRW8VVOO471g/viewform',
       delay: '800',
     },
   ],
