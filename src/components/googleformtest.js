@@ -93,10 +93,12 @@ Workshop level: Beginners to proficient, Professional anybody can attend.</h3>
 
 
 <div align="center" className="my-[50px]">
-<h1 className="text-3xl py-2 text-yellow-600 dark:text-neutral-300">Fill This Form To Register</h1>
-            <iframe className="w-11/12 h-full aspect-[1/2] align-center " src="https://forms.gle/f8gxqtZfZxjnyb158"></iframe></div>
+<h1 className="text-3xl py-2 text-yellow-600 dark:text-neutral-300"><a className="text-blue-500 hover:text-yellow-400 dark:hover:text-yellow-600 dark:text-white" href="https://forms.gle/f8gxqtZfZxjnyb158">Click Here </a>or Fill This Form To Register</h1>
+            <iframe className=" sm:w-11/12 sm:h-full w-full h-full aspect-[1/2] sm:aspect-[1/2] sm:align-center " src="https://docs.google.com/forms/d/e/1FAIpQLSeg3nZ6zLsUGIpr-sGepZEqAPLSkf-pj046gGSsZu81H14qUw/viewform"></iframe></div>
 </div>
         </div>
+
+
         <section
       className='my-[10px] '
       data-aos='fade-left'
