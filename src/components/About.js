@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React, { useRef } from 'react';
 
 // import about data
 import { aboutData } from '../data';
@@ -6,14 +6,14 @@ import { aboutData } from '../data';
 const About = () => {
   // destructure about
   const { image, title, subtitle } = aboutData;
-  
+
   return (
     <section
       className='my-[30px] mt-[100px]'
       data-aos='fade-up'
       data-aos-offset='350'
       id="#About"
-      
+
     >
       <div className='container mx-auto'>
         <div className='bg-green-100 rounded-[50px] min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
@@ -25,7 +25,7 @@ const About = () => {
               {title}
             </h2>
             <p
-              className='max-w-[474px] mx-auto xl:mx-0 dark:text-gray-400'
+              className='max-w-[474px] font-medium mx-auto xl:mx-0 dark:text-gray-400'
               data-aos='fade-up'
               data-aos-delay='400'
             >

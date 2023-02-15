@@ -25,7 +25,7 @@ const Workshop = () => {
               {title}
             </h2>
             <p
-              className='max-w-[474px] mx-auto xl:mx-0'
+              className='max-w-[474px] mx-auto xl:mx-0 font-medium'
               data-aos='fade-down'
               data-aos-delay='400'
             >
