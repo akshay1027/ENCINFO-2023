@@ -52,7 +52,7 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: `ENCINFO-2023`,
+  title: `ENCINFO- 2023`,
   subtitle:
     'CRYPTOCON',
   btnText: 'Know More',
