@@ -63,7 +63,7 @@ export const aboutData = {
   image: about,
   title: 'About',
   subtitle:
-    'A 2-Day Electonics and Communication Engineering Techincal Symposium',
+    'A 2-Day Electronics and Communication Engineering Techincal Symposium',
 };
 
 export const WorkshopData = {
