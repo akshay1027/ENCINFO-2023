@@ -24,12 +24,12 @@ import pushup from '../src/assets/img/events/pushup.png';
 import lyric from '../src/assets/img/events/lyric.png';
 import shortfilm from '../src/assets/img/events/shortfilm.png';
 import reel from '../src/assets/img/events/reel.png';
-import about from '../src/assets/img/events/about.png';
+// import about from '../src/assets/img/events/about.svg';
 
 //import other images
 
 import Dronelogo from '../src/assets/img/dronelogo.png';
-import AboutImg from '../src/assets/img/about.png';
+import about from '../src/assets/img/about.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';

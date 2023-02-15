@@ -21,11 +21,11 @@ const About = () => {
             <img className="border-white" src={image} alt='' />
           </div>
           <div className='flex-1 xl:pr-12'>
-            <h2 className='h2 mb-10 font-bold text-3xl dark:text-gray-400' data-aos='fade-left' data-aos-delay='300'>
+            <h2 className='h2 mb-10 font font-black text-3xl' data-aos='fade-left' data-aos-delay='300'>
               {title}
             </h2>
             <p
-              className='max-w-[474px] font-medium mx-auto xl:mx-0 dark:text-gray-400'
+              className='max-w-[474px] font-semibold mx-auto xl:mx-0'
               data-aos='fade-up'
               data-aos-delay='400'
             >
