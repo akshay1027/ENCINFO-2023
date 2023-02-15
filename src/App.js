@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 // import animate on scroll
 import Aos from 'aos';
@@ -29,35 +29,35 @@ const App = () => {
   // dark theme
   const [theme, setTheme] = useState(null);
 
-	useEffect(() => {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			setTheme('light');
-		} else {
-			setTheme('dark');
-		}
-	}, []);
+  useEffect(() => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('light');
+    } else {
+      setTheme('light');
+    }
+  }, []);
 
-	const handleThemeSwitch = () => {
-		setTheme(theme === 'dark' ? 'light' : 'dark');
-	};
+  const handleThemeSwitch = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
 
-	useEffect(() => {
-		if (theme === 'dark') {
-			document.documentElement.classList.add('dark');
-		} else {
-			document.documentElement.classList.remove('dark');
-		}
-	}, [theme]);
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
 
   return (
     <div className='overflow-hidden dark:bg-gray-900'>
       <button
-				type="button"
-				onClick={handleThemeSwitch}
-				className="fixed z-50 right-2 top-2 bg-indigo-500 text-lg p-1 rounded-md"
-			>
-				{theme === 'dark' ? '🌞' : '🌙'}
-			</button>
+        type="button"
+        onClick={handleThemeSwitch}
+        className="fixed z-50 right-2 top-2 bg-indigo-500 text-lg p-1 rounded-md"
+      >
+        {theme === 'dark' ? '🌞' : '🌙'}
+      </button>
       <Header />
       <Routes>
         <Route exact path='/' element={
