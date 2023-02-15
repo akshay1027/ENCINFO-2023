@@ -2,16 +2,37 @@
 import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
-// import images
+// import events images
+
+import dance from '../src/assets/img/events/dance.png';
+import solosinging from '../src/assets/img/events/solosinging.png';
+import meme from '../src/assets/img/events/meme.png';
+import valo from '../src/assets/img/events/valo.png';
+import techquiz from '../src/assets/img/events/techquiz.png';
+import pubg from '../src/assets/img/events/pubg.png';
+import moviequiz from '../src/assets/img/events/movie_quiz.png';
+import fifa1 from '../src/assets/img/events/fifa1.png';
+import photo from '../src/assets/img/events/photo.png';
+import seriesquiz from '../src/assets/img/events/seriesquiz.png';
+import jam from '../src/assets/img/events/jam.png';
+import pot from '../src/assets/img/events/pot.png';
+import robo from '../src/assets/img/events/robo.png';
+import circuit from '../src/assets/img/events/circuit.png';
+import adapt from '../src/assets/img/events/adapt.png';
+import treasure from '../src/assets/img/events/treasure.png';
+import pushup from '../src/assets/img/events/pushup.png';
+import lyric from '../src/assets/img/events/lyric.png';
+import shortfilm from '../src/assets/img/events/shortfilm.png';
+import reel from '../src/assets/img/events/reel.png';
+import about from '../src/assets/img/events/about.png';
+
+//import other images
+
+import Dronelogo from '../src/assets/img/dronelogo.png';
 import AboutImg from '../src/assets/img/about.png';
-import Feature1Img from '../src/assets/img/features/feature1.png';
-import Feature2Img from '../src/assets/img/features/feature2.png';
-import Feature3Img from '../src/assets/img/features/feature3.png';
-import Feature4Img from '../src/assets/img/features/feature4.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
-import LogoV2 from '../src/assets/img/logo-v2.png';
 import HeroImage from '../src/assets/img/hero-img.png';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
@@ -38,59 +59,233 @@ export const heroData = {
 };
 
 export const aboutData = {
-  image: AboutImg,
+  image: about,
   title: 'About',
   subtitle:
-    'events dnjkfnjwek ada.dkwlfj dsldfkwlfkwjfewe sl;kfelkfj slm;fsdldkfqem lfkekefeklrfe',
+    'A 2-Day Electonics and Communication Engineering Techincal Symposium',
 };
 
 export const WorkshopData = {
-  image: AboutImg,
+  image: Dronelogo,
   title: 'Workshop',
   subtitle:
-    'Workshops dnjkfnjwek ada.dkwlfj dsldfkwlfkwjfewe sl;kfelkfj slm;fsdldkfqem lfkekefeklrfe',
+    'Build and Fly your Own Drone!!!',
 };
 
-export const eventsData = {
-  title: 'Events',
+export const EsportseventsData = {
+  title: 'Esports Events',
   subtitle:
-    'events dnjkfnjwek ada.dkwlfj dsldfkwlfkwjfewe sl;kfelkfj slm;fsdldkfqem lfkekefeklrfe',
+    'Stay Tuned!',
   list: [
     {
-      image: Feature1Img,
+      image: valo,
       bgImage: Feature1BgImg,
-      title: 'Payment Done',
+      title: 'Valorant',
       description:
-        'Pay with a Visa or PayPal card and without much ado',
-      linkText: 'Learn more',
+        'Loading ....',
+      linkText: 'Register Here',
       delay: '400',
     },
     {
-      image: Feature2Img,
+      image: fifa1,
       bgImage: Feature2BgImg,
-      title: 'Find Your Product',
+      title: 'Fifa',
       description:
-        'We offer sale of products through the Internet..',
-      linkText: 'Learn more',
+        'Loading ....',
+      linkText: 'Register Here',
       delay: '600',
     },
     {
-      image: Feature3Img,
+      image: pubg,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: 'Pubg',
       description:
-        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+  ],
+};
+
+export const TechnicaleventsData = {
+  title: 'Technical Events',
+  subtitle:
+    'Stay Tuned!',
+  list: [
+    {
+      image: techquiz,
+      bgImage: Feature1BgImg,
+      title: 'Technical Quiz',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '400',
+    },
+    {
+      image: robo,
+      bgImage: Feature2BgImg,
+      title: 'Line Follower/Robo Race',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '600',
+    },
+    {
+      image: circuit,
+      bgImage: Feature3BgImg,
+      title: 'Circuit Debugging',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+  ],
+};
+
+export const CulturaleventsData = {
+  title: 'Cultural Events',
+  subtitle:
+    'Stay Tuned!',
+  list: [
+    {
+      image: solosinging,
+      bgImage: Feature1BgImg,
+      title: 'Solo Singing',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '400',
+    },
+    {
+      image: dance,
+      bgImage: Feature2BgImg,
+      title: 'Group Dance',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '600',
+    },
+    {
+      image: adapt,
+      bgImage: Feature3BgImg,
+      title: 'Adapt Tunes',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+  ],
+};
+export const LiteraryeventsData = {
+  title: 'Literary Events',
+  subtitle:
+    'Stay Tuned!',
+  list: [
+    {
+      image: jam,
+      bgImage: Feature1BgImg,
+      title: 'Just a Minute',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '400',
+    },
+    {
+      image: pot,
+      bgImage: Feature2BgImg,
+      title: 'Pot Pourri',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '600',
+    },
+  ],
+};
+export const NontechnicaleventsData = {
+  title: 'Nontechnical Events',
+  subtitle:
+    'Stay Tuned!',
+  list: [
+    {
+      image: moviequiz,
+      bgImage: Feature1BgImg,
+      title: 'Movie Quiz',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '400',
+    },
+    {
+      image: seriesquiz,
+      bgImage: Feature2BgImg,
+      title: 'Series Quiz',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '600',
+    },
+    {
+      image: treasure,
+      bgImage: Feature3BgImg,
+      title: 'Treasure Hunt',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
       delay: '800',
     },
     {
-      image: Feature4Img,
+      image: reel,
       bgImage: Feature4BgImg,
-      title: 'Product Received',
+      title: 'Reels',
       description:
-        'In our app you can see the delay time of your order...',
-      linkText: 'Learn more',
-      delay: '1000',
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+    {
+      image: photo,
+      bgImage: Feature1BgImg,
+      title: 'Photography',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+    {
+      image: shortfilm,
+      bgImage: Feature2BgImg,
+      title: 'Short Film',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+    {
+      image: pushup,
+      bgImage: Feature3BgImg,
+      title: 'Pushup Challenge',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+    {
+      image: meme,
+      bgImage: Feature4BgImg,
+      title: 'Meme Mania',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
+    },
+    {
+      image: lyric,
+      bgImage: Feature1BgImg,
+      title: 'Lyric Finding',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      delay: '800',
     },
   ],
 };
