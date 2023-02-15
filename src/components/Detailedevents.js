@@ -50,8 +50,8 @@ const Detailedevents = () =>{
               <li className="py-3 text-left">1.Devarajan I- 887080847</li>
               <li className="py-3 text-left">2.Praveene R- 84387 78446</li>
               <li className="py-3 text-left">3.Ohm Nandha c- 9500558210</li>
-              <li className="py-3 text-left">3.Aravind S- 8610228597</li>
-              <li className="py-3 text-left">3.Natramizh S- 96293 00971</li>
+              <li className="py-3 text-left">4.Aravind S- 8610228597</li>
+              <li className="py-3 text-left">5.Natramizh S- 96293 00971</li>
             </ul>
           </div>
         </div>
