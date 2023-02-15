@@ -21,11 +21,11 @@ const Workshop = () => {
             <img src={image} alt='' />
           </div>
           <div className='flex-1 xl:pr-12'>
-            <h2 className='h2 mb-10 font-bold text-3xl' data-aos='fade-left' data-aos-delay='300'>
+            <h2 className='h2 mb-10 font-extrabold text-3xl' data-aos='fade-left' data-aos-delay='300'>
               {title}
             </h2>
             <p
-              className='max-w-[474px] mx-auto xl:mx-0 font-medium'
+              className='max-w-[474px] mx-auto xl:mx-0 font-semibold'
               data-aos='fade-down'
               data-aos-delay='400'
             >
