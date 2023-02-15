@@ -14,14 +14,14 @@ const TechnicalEvents = () => {
       <div className='container mx-auto'>
         {/* text */}
         <div className='text-center'>
-        <h1
-            className='mb-6 xl:mb-12 font-bold text-4xl text-red-700 dark:text-white'
+          <h1
+            className='mb-6 xl:mb-12 font-bold text-4xl text-indigo-700 dark:text-white'
             data-aos='fade-down'
             data-aos-delay='100'
           >
             EVENTS LISTS
           </h1>
-       
+
           <h1
             className='mb-6 xl:mb-12 font-bold text-2xl dark:text-white'
             data-aos='fade-down'
