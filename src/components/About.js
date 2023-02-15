@@ -5,7 +5,7 @@ import { aboutData } from '../data';
 
 const About = () => {
   // destructure about
-  const { image, title, subtitle } = aboutData;
+  const { image, title,qoute, subtitle } = aboutData;
 
   return (
     <section
@@ -25,11 +25,12 @@ const About = () => {
               {title}
             </h2>
             <p
-              className='max-w-[474px] font-semibold mx-auto xl:mx-0'
+              className='max-w-[474px] text-green-900 text-left mx-auto xl:mx-0'
               data-aos='fade-up'
               data-aos-delay='400'
             >
-              {subtitle}
+              <p className='font-semibold text-red-700'>{qoute} <p className='font-black text-right py-2'>– Dr.A.P.J Abdul Kalam</p></p>
+              {subtitle}<span className='text-blue-900 font-semibold'>"CRYPTOCON"</span> edition, is set to bring young vibrant minds together.
             </p>
           </div>
         </div>

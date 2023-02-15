@@ -21,7 +21,7 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='100'
           >
-            EVENTS LISTS
+            EVENT LISTS
           </h1>
 
           <h1
@@ -61,8 +61,7 @@ const TechnicalEvents = () => {
                   <img src={bgImage} />
                 </div>
 
-                {/* icon image */}
-                {/* <div className='flex pb-14 sm:pb-0'> */}
+                {/* icon image */}  
                 <div
                   className='max-w-[120px] xl:mr-7 xl:max-w-[232px]'
                   data-aos='zoom-in-right'
@@ -84,7 +83,6 @@ const TechnicalEvents = () => {
                   </div>
                   </Link>
                 </div>
-                {/* </div> */}
               </div>
             );
           })}

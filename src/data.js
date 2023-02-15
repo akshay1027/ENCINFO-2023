@@ -52,7 +52,7 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: `ENCINFO- 2023`,
+  title: `ENC INFO - 2023`,
   subtitle:
     'CRYPTOCON',
   btnText: 'Know More',
@@ -62,8 +62,9 @@ export const heroData = {
 export const aboutData = {
   image: about,
   title: 'About',
+  qoute:'"All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents."',
   subtitle:
-    'A 2-Day Electronics and Communication Engineering Techincal Symposium',
+    'The department of Electronics and Communication takes immense pride in organising the technical symposium "ENC INFO". ENC INFO is the brainchild of the collection of brightest brains in India. All for the engineering students out there. Here is your one stop ticket to ignite learning and showcase your skills and knowledge in fun, practical and innovative ways. The ENC INFO 2K23  ',
 };
 
 export const WorkshopData = {
@@ -224,7 +225,7 @@ export const LiteraryeventsData = {
   ],
 };
 export const NontechnicaleventsData = {
-  title: 'Nontechnical Events',
+  title: 'Non-Technical Events',
   subtitle:
     'Stay Tuned!',
   list: [
