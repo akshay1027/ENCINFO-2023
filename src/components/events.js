@@ -21,7 +21,7 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='100'
           >
-            EVENT LISTS
+            EVENTS LIST
           </h1>
 
           <h1
@@ -29,6 +29,7 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='100'
           >
+            <p className='text-red-700 font-semibold text-2xl pb-10 py-3 dark:text-blue-200'>Registration Opens Soon!!!</p>
             {title}
           </h1>
           <p
@@ -36,7 +37,9 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='200'
           >
+            
             {subtitle}
+            
           </p>
         </div>
         {/* feature list */}
