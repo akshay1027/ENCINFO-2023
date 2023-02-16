@@ -25,6 +25,7 @@ import lyric from '../src/assets/img/events/lyric.png';
 import shortfilm from '../src/assets/img/events/shortfilm.png';
 import reel from '../src/assets/img/events/reel.png';
 import paper from '../src/assets/img/events/paper.png';
+import coding from '../src/assets/img/events/coding.png';
 // import about from '../src/assets/img/events/about.svg';
 
 //import other images
@@ -155,6 +156,16 @@ export const TechnicaleventsData = {
         'Loading ....',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSdtY5UgiC2Vd2EomvauZ-lLtS5rdqQBkobHUPHUlmg7OZPE8w/viewform',
+      delay: '800',
+    },
+    {
+      image: coding,
+      bgImage: Feature1BgImg,
+      title: 'Discover Coding',
+      description:
+        'Loading ....',
+      linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSffLNBmZdRl_gOmT_EnYDLrzIznvPSRmDavrmwGo_5I5obd9Q/viewform',
       delay: '800',
     },
   ],
