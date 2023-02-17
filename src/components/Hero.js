@@ -17,6 +17,7 @@ const Hero = () => {
             <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-slate-800 md:text-6xl md:tracking-tight">
               <span className="dark:text-white">{title}</span> | <span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r  from-blue-700 to-sky-400 lg:inline  dark:bg-clip-text dark:bg-gardient-to-r dark:from-lightblue-400 dark:to-grey-200">{subtitle}</span>
             </h1>
+            <h1 className='mb-8 text-2xl font-semibold leading-none tracking-normal text-slate-800 md:text-4xl md:tracking-tight'><span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r  from-red-400 to-yellow-800 lg:inline  dark:bg-clip-text dark:bg-gardient-to-r dark:from-lightblue-400 dark:to-grey-200">23rd & 24th FEB </span></h1>
             {/* <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
               
             </p> */}
