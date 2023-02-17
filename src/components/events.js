@@ -29,7 +29,7 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='100'
           >
-            <p className='text-red-700 font-semibold text-2xl pb-10 py-3 dark:text-blue-200'>Registration Opens Soon!!!</p>
+            <p className='text-rose-500 font-semibold text-2xl pb-10 py-3 dark:text-blue-200'>Registration Opens Soon!!!</p>
             {title}
           </h1>
           <p
@@ -37,19 +37,19 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='200'
           >
-            
+
             {subtitle}
-            
+
           </p>
         </div>
         {/* feature list */}
         <div className='grid grid-cols-1 gap-[50px] xl:grid-cols-2'>
           {list.map((feature, index) => {
             // destructure feature
-            const { image, bgImage, title,url, description, linkText, delay } =
+            const { image, bgImage, title, url, description, linkText, delay } =
               feature;
-              const reqtitle = title.replace(' ','-');
-              var loc = encodeURIComponent(url)+reqtitle;
+            const reqtitle = title.replace(' ', '-');
+            var loc = encodeURIComponent(url) + reqtitle;
             // feature item
             return (
               <div
@@ -64,7 +64,7 @@ const TechnicalEvents = () => {
                   <img src={bgImage} />
                 </div>
 
-                {/* icon image */}  
+                {/* icon image */}
                 <div
                   className='max-w-[120px] xl:mr-7 xl:max-w-[232px]'
                   data-aos='zoom-in-right'
@@ -78,12 +78,12 @@ const TechnicalEvents = () => {
                   <p className='font-light italic mb-4 dark:text-white'>{description}</p>
                   {/* link & arrow */}
                   <Link to={`/${loc}`} >
-                  <div className='flex items-center gap-x-2 group'>
-                    <a className='text-primary font-bold dark:text-white'>
-                      {linkText}
-                    </a>
-                    <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' />
-                  </div>
+                    <div className='flex items-center gap-x-2 group'>
+                      <a className='text-primary font-bold dark:text-white'>
+                        {linkText}
+                      </a>
+                      <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' />
+                    </div>
                   </Link>
                 </div>
               </div>
