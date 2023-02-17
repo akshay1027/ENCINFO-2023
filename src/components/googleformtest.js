@@ -70,7 +70,7 @@ const googleform = () => {
                   <h1 className="text-lg text-left py-3 font-medium"> Students from other colleges who are interested in attending this workshop are invited.</h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
                     <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 750 (INR) per person </li>
-                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">Last date for registration - 17th February 2023 evening 5pm</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">Last date for registration - 19th February 2023 evening 5pm</li>
                     <li className="py-3 text-left font-medium">Topic: Drone making</li>
                     <li className="py-3 text-left font-medium">Venue: Puducherry Technological University - ECE Department</li>
                     <li className="py-3 text-left font-medium">Time: 9:00 am to 5:00 pm</li>
