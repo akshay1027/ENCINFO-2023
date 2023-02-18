@@ -201,7 +201,7 @@ export const CulturaleventsData = {
       bgImage: Feature3BgImg,
       title: 'Adapt Tunes',
       description:
-        'Loading ....',
+        'Adapt yourself to the beats!!!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSc7sZA7HACjsc4B0DkXncakyt29HlYdSI-haakowOD_1ir3ZA/viewform',
       delay: '800',
