@@ -17,15 +17,15 @@ const Hero = () => {
             <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-slate-800 md:text-6xl md:tracking-tight">
               <span className="dark:text-white">{title}</span> | <span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r  from-blue-700 to-sky-400 lg:inline  dark:bg-clip-text dark:bg-gardient-to-r dark:from-lightblue-400 dark:to-grey-200">{subtitle}</span>
             </h1>
-            <h1 className='mb-8 text-2xl font-semibold leading-none tracking-normal text-slate-800 md:text-4xl md:tracking-tight'><span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r  from-red-400 to-yellow-800 lg:inline  dark:bg-clip-text dark:bg-gardient-to-r dark:from-lightblue-400 dark:to-grey-200">23rd & 24th FEB </span></h1>
+            <h1 className='my-10 text-2xl font-black leading-none tracking-normal text-slate-800 md:text-4xl md:tracking-tight'><span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-indigo-500 lg:inline  dark:bg-clip-text dark:bg-gardient-to-r dark:from-lightblue-400 dark:to-grey-200">23rd & 24th FEB </span></h1>
             {/* <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
               
             </p> */}
-            <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
-              
+            <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">
+
             </div>
           </div>
-          <div class="w-full mx-auto mt-20 text-center md:w-10/12">
+          <div class="w-full mx-auto mt-12 text-center md:w-10/12">
             <div class="relative z-0 w-full mt-8">
               <div class="relative overflow-hidden shadow-2xl">
                 <div class="flex items-center flex-none px-4 bg-slate-800 dark:bg-gray-500 rounded-b-none h-11 rounded-xl">
