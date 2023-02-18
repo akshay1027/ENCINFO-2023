@@ -29,6 +29,9 @@ module.exports = {
           secondary_hover: '#E350A9',
           tertiary: '#68C9BA',
         },
+        fontFamily: {
+          'poppins': ['Poppins', 'sans-serif']
+        },
       },
       backgroundImage: {
         hero: "url('../src/assets/img/hero_bg.png')",
