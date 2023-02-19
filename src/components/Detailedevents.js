@@ -3,7 +3,29 @@ import { useParams } from 'react-router-dom';
 
 
 //Import posters
-import TechnicalQuiz from '../assets/img/sepeventposters/TechnicalQuiz.jpg';
+import technicalQuiz from '../assets/img/sepeventposters/technicalquiz.png';
+import adapttunes from '../assets/img/sepeventposters/adapttunes.png';
+import bgmi from '../assets/img/sepeventposters/bgmi.png'; 
+import circuitdebugging from '../assets/img/sepeventposters/circuitdebugging.png';
+import discovercoding from '../assets/img/sepeventposters/discovercoding.png'; 
+import fifa from '../assets/img/sepeventposters/fifa.png'; 
+import groupdance from '../assets/img/sepeventposters/groupdance.png';
+import justamin from '../assets/img/sepeventposters/justamin.png';
+import lyricfinding from '../assets/img/sepeventposters/lyricfinding.png';
+import mememania from '../assets/img/sepeventposters/mememania.png';
+import moviequiz from '../assets/img/sepeventposters/moviequiz.png';
+import paperpresentation from '../assets/img/sepeventposters/paperpresentation.png';
+import photography from '../assets/img/sepeventposters/photography.png';
+import potpourri from '../assets/img/sepeventposters/potpourri.png';
+import pushupchallenge from '../assets/img/sepeventposters/pushupchallenge.png';
+import reelschallenge  from '../assets/img/sepeventposters/reelschallenge.png';
+import roboracing from '../assets/img/sepeventposters/roboracing.png';
+import seriesquiz from '../assets/img/sepeventposters/seriesquiz.png';
+import shortfilm from '../assets/img/sepeventposters/shortfilm.png';
+import treasurehunt from '../assets/img/sepeventposters/treasurehunt.png';
+import valorant from '../assets/img/sepeventposters/valorant.png';
+import varietyvarietysolo from '../assets/img/sepeventposters/varietyvarietysolo.png'
+
 
 
 const Detailedevents = () =>{
@@ -47,13 +69,12 @@ const Detailedevents = () =>{
                 <div className='flex-1 xl:pr-12'>
                   <h1 className="text-lg text-left py-3 font-medium"> Terms and Conditions: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 100 (INR) per person </li>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 150 (INR) per Team.</li>
                     <li className="py-3 text-left text-lg text-red-500 font-semibold "> Maximum of 3 members per team is allowed.</li>
                     <li className="py-3 text-left font-medium">Three rounds will be conducted .</li>
-                    <li className="py-3 text-left font-medium">The preliminary round will be conducted on the basis of number of teams registered.</li>
-                    <li className="py-3 text-left font-medium">The top 5 teams with high score will be selected for the second round.</li>
-                    <li className="py-3 text-left font-medium">The top 3 teams with high score will be selected for the final round.</li>
-                    <li className="py-3 text-left font-medium">The questions will be based on Electronics.</li>
+                    <li className="py-3 text-left font-medium">A Quiz on General Aptitude and Vocabulary</li>
+                    <li className="py-3 text-left font-medium">ROUNDS: <div class="grid pl-8 grid-rows-3 grid-flow-col gap-4"><div className='text-sm'>1. Logicomaniac</div><div className='text-sm'>2. Word Sorcery</div><div className='text-sm'>3. Quiz Master</div></div></li>
+                    <li className="py-3 text-left font-medium">The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
                   </ul>
                 </div>
               </div>
@@ -77,7 +98,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} />
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={technicalQuiz} />
             
             </div>
             }
@@ -101,6 +122,7 @@ const Detailedevents = () =>{
                     <li className="py-3 text-left font-medium">5. Participant can bring their own laptop if possible or else desktop will be provided.</li>
                     <li className="py-3 text-left font-medium">6. Everyone must bring their Payment Screenshot (if done through Gpay).</li>
                     <li className="py-3 text-left font-medium">7. Getting help from the internet or mobile phones will be strictly monitored.</li>
+                    <li className="py-3 text-left font-medium">8. The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
                     
                   </ul>
                 </div>
@@ -125,13 +147,13 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={discovercoding} />
             </div>
             }
 
-{Title === "Circuit-Debugging" && 
+{Title === "Line-Follower||Robo Race" && 
           <div>
-             <section
+            <section
             className='my-[10px] mt-[30px]'
             data-aos='fade-down'
             data-aos-offset='350'
@@ -140,16 +162,63 @@ const Detailedevents = () =>{
             <div className='container mx-auto'>
               <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
                 <div className='flex-1 xl:pr-12'>
-                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <h1 className="text-lg text-left py-3 font-medium"> Terms and Conditions: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.50 per head.</li>
-                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. All teams can have maximum of 3 members.</li>
-                    <li className="py-3 text-left font-medium">3.Prerequisite: Basics of analog and digital Electronics, Opamp, IC555.</li>
-                    <li className="py-3 text-left font-medium">4. The event has TWO rounds, which test your circuit debugging skills.</li>
-                    <li className="py-3 text-left font-medium">5. Multisim(Online Simulation) - https://www.multisim.com</li>
-                    <li className="py-3 text-left font-medium">6. The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
-                    <li className="py-3 text-left font-medium">7. Getting help from the internet or mobile phones will be strictly monitored.</li>
-                    
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 150 (INR) per Head.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold "> A team may consist of a maximum of FOUR members.</li>
+                    <li className="py-3 text-left font-medium">Two Rounds: <div class="grid pl-8 grid-rows-2 grid-flow-col gap-4"><div className='text-sm'>1. Line Follower</div><div className='text-sm'>2. Robo Race</div></div></li>
+                    <li className="py-3 text-left font-medium">Robo Control: Autonomous</li>
+                    <li className="py-3 text-left font-medium">Robo weight Range: 1000g</li>
+                    <li className="py-3 text-left font-medium">Certificates will be provided. </li>
+                    <li className="py-3 text-left font-medium">Detailed Rules are specified in G-form. </li>
+                    <li className="py-3 text-left font-medium">The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Ra. Srinethe - 6369127917</li>
+              <li className="py-3 text-left">2.Krishna Teja M - 9652224274</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={roboracing} />
+            </div>
+            }
+
+{Title === "Circuit-Debugging" && 
+          <div>
+            <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium"> Terms and Conditions: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">Fee: 50 (INR) per Head.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold "> A team may consist of a maximum of THREE members.</li>
+                    <li className="py-3 text-left font-medium">The event has THREE  rounds, which test your circuit debugging skills.</li>
+                    <li className="py-3 text-left font-medium">PREREQUISITE: Basics of analog and digital Electronics, Op-amp, IC555, Multisim simulator.</li>
+                    <li className="py-3 text-left font-medium">ROUNDS: <div class="grid pl-8 grid-rows-3 grid-flow-col gap-4"><div className='text-sm'>1. GENERAL QUIZ</div><div className='text-sm'>2. BUZZER ROUND</div><div className='text-sm'>3. USING MULTISIM SIMULATOR</div></div></li>
+                    <li className="py-3 text-left font-medium">The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
+                    <li className="py-3 text-left font-medium">Usage of mobile phones and internet will be strictly prohibited.</li>
                   </ul>
                 </div>
               </div>
@@ -173,7 +242,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={circuitdebugging} />
             </div>
             }
              {Title === "Paper-Presentation" && 
@@ -195,7 +264,6 @@ const Detailedevents = () =>{
                     <li className="py-3 text-left font-medium font-bold">Topics: </li>
                     <li className="py-3 text-left font-medium"><div class="grid grid-rows-5 grid-flow-col gap-4">
   <div className='text-sm'>AL</div><div className='text-sm'>ML</div><div className='text-sm'>Deep Learning</div><div className='text-sm'>IOT</div><div className='text-sm'>Cloud or Edge computing</div><div className='text-sm'>5G and 6G</div><div className='text-sm'>WSN</div><div className='text-sm'>Embedded System</div><div className='text-sm'>Cryptography and wireless security</div><div className='text-sm'>Antennas</div>
-  
   <div className='text-sm'>DSP</div> <div className='text-sm'>Image processing</div> <div className='text-sm'>Microwave and Optical communication</div><div className='text-sm'>VR or AR</div><div className='text-sm'>Robotics</div><div className='text-sm'>VLSI</div>
 </div></li>
                     <li className="py-3 text-left font-medium">4. Presentation time: 10 to 15 min.</li>
@@ -208,7 +276,25 @@ const Detailedevents = () =>{
               </div>
             </div>
           </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Nappinnai - 7708162426</li>
+              <li className="py-3 text-left">2.Santhiya - 9344164717</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={paperpresentation} />
             </div>
             }
 
@@ -250,14 +336,14 @@ const Detailedevents = () =>{
             <ul className="list-outside py-3" data-aos='fade-left'>
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
               <li className="py-3 text-left">1.Shreyasi Majumder - 9563587416</li>
-              <li className="py-3 text-left">2.Sivarajkuamr- 8610253006</li>
-              <li className="py-3 text-left">2.Sriramachandran - 9345420280</li>
+              <li className="py-3 text-left">2.Sivarajkumar- 8610253006</li>
+              <li className="py-3 text-left">3.Sriramachandran - 9345420280</li>
               </ul>
           </div>
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={varietyvarietysolo} />
             </div>
             }
             {Title === "Group-Dance" && 
@@ -302,7 +388,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={groupdance} />
             </div>
             }
              {Title === "Lyric-Finding" && 
@@ -347,7 +433,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={lyricfinding} />
             </div>
             }
             {Title === "Adapt-Tunes" && 
@@ -392,7 +478,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={adapttunes} />
             </div>
             }
 
@@ -441,15 +527,15 @@ const Detailedevents = () =>{
           <div className='flex-1 xl:pr-12'>
             <ul className="list-outside py-3" data-aos='fade-left'>
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
-              <li className="py-3 text-left">1.Ruchitha I - 7010920759</li>
-              <li className="py-3 text-left">2.Harish - 8248875492</li>
-              <li className="py-3 text-left">2.Danaprasad M - 9487046805</li>
+              <li className="py-3 text-left">1. Ruchitha I - 7010920759</li>
+              <li className="py-3 text-left">2. Harish - 8248875492</li>
+              <li className="py-3 text-left">3. Danaprasad M - 9487046805</li>
               </ul>
           </div>
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={treasurehunt} />
             </div>
             }
             {Title === "Pushup-Challenge" && 
@@ -465,7 +551,7 @@ const Detailedevents = () =>{
                 <div className='flex-1 xl:pr-12'>
                   <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.50 per team</li>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.50 per head</li>
                     <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. Individual Event.</li>
                     <li className="py-3 text-left font-medium">3. Winners will be declared based the count.</li>
                     <li className="py-3 text-left font-medium">4. Get down on all fours, placing your hands slightly wider than your shoulders.</li>
@@ -496,7 +582,53 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={pushupchallenge} />
+            </div>
+            }
+            {Title === "Meme-Mania" && 
+          <div>
+             <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.50 per head</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. Individual Event.</li>
+                    <li className="py-3 text-left font-medium">3. The language for the meme if used must be in English or Tamil.</li>
+                    <li className="py-3 text-left font-medium">4. The theme of the competition will be allocated during the start of the event.</li>
+                    <li className="py-3 text-left font-medium">5. The duration of the competition will be  30 minutes.</li>
+                    <li className="py-3 text-left font-medium">6. Plagiarism is strictly not allowed.</li>
+                    <li className="py-3 text-left font-medium">7. The decision of judges and event coordinators shall be treated as final and binding in all aspects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Yogeshwar.B - 7349560888</li>
+              <li className="py-3 text-left">2.Sivapragash - 7397163264</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={mememania} />
             </div>
             }
 
@@ -545,7 +677,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={photography} />
             </div>
             }
 
@@ -594,7 +726,7 @@ const Detailedevents = () =>{
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={shortfilm} />
             </div>
             }
 
@@ -634,13 +766,58 @@ const Detailedevents = () =>{
             <ul className="list-outside py-3" data-aos='fade-left'>
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
               <li className="py-3 text-left">1. T C Adityaa- 9944581729</li>
-              <li className="py-3 text-left">2.Shaanthapriyan- 9488007981</li>
+              <li className="py-3 text-left">2. Raghul P- 9488007981</li>
               </ul>
           </div>
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={moviequiz} />
+            </div>
+            }
+            {Title === "Reels" && 
+          <div>
+             <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The registration amount is Rs. 100 per person</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2.Individual participant based event, if needed max of 2 participation. College students only allowed for participation.</li>
+                    <li className="py-3 text-left font-medium">3. A sample reel  or content will be given . Participants have to recreate the contents in their own style.</li>
+                    <li className="py-3 text-left font-medium">4. The reels should be shot inside the campus, and a time limit of 30 mins will be given. (No extra time will be provided)</li>
+                    <li className="py-3 text-left font-medium">5. JUDGES DECISION WILL BE FINAL. No arguments or appeal will be entertained.</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1. Praveene - 8438778446</li>
+              <li className="py-3 text-left">2. Apurva - 6207227172</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={reelschallenge} />
             </div>
             }
 
@@ -681,15 +858,15 @@ const Detailedevents = () =>{
           <div className='flex-1 xl:pr-12'>
             <ul className="list-outside py-3" data-aos='fade-left'>
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
-              <li className="py-3 text-left">1.Vishnukumar - 8825827011</li>
-              <li className="py-3 text-left">2.Cryil Christopher - 9443085675</li>
-              <li className="py-3 text-left">2.Vishnou Prasad - 8807760716</li>
+              <li className="py-3 text-left">1. Vishnukumar - 8825827011</li>
+              <li className="py-3 text-left">2. Cryil Christopher - 9443085675</li>
+              <li className="py-3 text-left">3. Vishnou Prasad - 8807760716</li>
               </ul>
           </div>
         </div>
       </div>
     </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={seriesquiz} />
             </div>
             }
 
@@ -719,7 +896,25 @@ const Detailedevents = () =>{
               </div>
             </div>
           </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Reena.M - 8078422438</li>
+              <li className="py-3 text-left">2.Nivedha - 84387937345</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={potpourri} />
             </div>
             }
 
@@ -748,7 +943,25 @@ const Detailedevents = () =>{
               </div>
             </div>
           </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Sivashree - 9751052991</li>
+              <li className="py-3 text-left">2.Seevaranjinee - 9629970007</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={justamin} />
             </div>
             }
 
@@ -771,28 +984,142 @@ const Detailedevents = () =>{
                 <div className='flex-1 xl:pr-12'>
                   <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.600 per Team.</li>
-                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. All teams must have 5 members.</li>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.150 per Head.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. INDIVIDUAL event.</li>
                     <li className="py-3 text-left font-medium">3. Every participant must be a college student (Id cards verification will be done).</li>
-                    <li className="py-3 text-left font-medium">3. First 10 Teams who register first will be selected so Register Fast!!.</li>
                     <li className="py-3 text-left font-medium">4. Tournament will be conducted online.</li>
-                    <li className="py-3 text-left font-medium">5. Game mode: SWIFTPLAY. No overtime rounds(Sudden-death).</li>
+                    <li className="py-3 text-left font-medium">5. Game mode: DEATHMATCH.</li>
                     <li className="py-3 text-left font-medium">6. Single map will be played for whole tournament.(will choose by a majority vote in G-form).</li>
-                    <li className="py-3 text-left font-medium">7. Fixture and timings will be displayed in the discord server on the morning of the tournament day.</li>
+                    <li className="py-3 text-left font-medium">7. Timings will be displayed in the discord server on the morning of the tournament day.</li>
                     <li className="py-3 text-left font-medium">8. Disqualification will result from any of the following
     <ul className='px-4'>
     <li>a. Any insults and unfair or disrespectful behaviors' </li>
-    <li>b. If Team Didnt Report on given time slot.</li>
-    <li>c. Interfering with other teams or their members in any way</li>
-    <li>e. Any cheats or hacks if found.</li></ul></li>
+    <li>b. If participant Didnt Report on given time slot.</li>
+    <li>c. Interfering with other participant in any way</li>
+    <li>d. Any cheats or hacks if found.</li></ul></li>
                   </ul>
                 </div>
               </div>
             </div>
           </section>
-            {/* <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={TechnicalQuiz} /> */}
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.RAGHUL PRASATH - 9566723938 </li>
+              <li className="py-3 text-left">2.Moginder.E - 8778434982</li>
+              <li className="py-3 text-left">3.Aswin.V - 9486475073</li>
+              
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={valorant} />
             </div>
             }
+            {Title === "Fifa" && 
+          <div>
+             <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.150 per head.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. 1v1</li>
+                    <li className="py-3 text-left font-medium">3. The match will be played on playstation. </li>
+                    <li className="py-3 text-left font-medium">4. The Game will be FIFA23.</li>
+                    <li className="py-3 text-left font-medium">5. Any club or national teams can be selected.</li>
+                    <li className="py-3 text-left font-medium">6. The match duration will be informed on the day of tournament.</li>
+                    <li className="py-3 text-left font-medium">7. Only Knockout stages. Normal kickoff &gt; Extra time &gt; penalty shootout</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[150px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className=" text-left">1.Aravind - 9600224229</li>
+              <li className=" text-left">2.KISHORE KUMAR S -8754179211</li>
+              
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={fifa} />
+            </div>
+            }
+            {Title === "Bgmi" && 
+          <div>
+             <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.200 per Team.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. A team must have 4 players.</li>
+                    <li className="py-3 text-left font-medium">3. Game mode and Map will be decided on the spot.</li>
+                    <li className="py-3 text-left font-medium">4. Players should carry their own device with the game installed..</li>
+                    <li className="py-3 text-left font-medium">5. If a player found using hacks, the respective team will be disqualified.</li>
+                    <li className="py-3 text-left font-medium">6. The decision of the coordinators will be final in all aspects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Vishnukumar - 8825827011</li>
+              <li className="py-3 text-left">2.Praveene R - 8438778446</li>
+              <li className="py-3 text-left">3.Vijayabharathi - 6380436136</li>
+              
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={bgmi} />
+            </div>
+            }
+            
             
            
 
@@ -801,7 +1128,7 @@ const Detailedevents = () =>{
 
       
         <div align="center" className="my-[50px]">
-          <h1 className="text-3xl py-2 dark:text-neutral-300"><a className="text-blue-500 hover:text-purple-500 dark:hover:text-yellow-500 dark:text-blue-400 font-bold" href={url}>Click Here </a>or Fill This Form To Register</h1>
+          <h1 className="text-3xl py-2 dark:text-neutral-300"><a className="text-blue-500 hover:text-purple-500 dark:hover:text-yellow-500 dark:text-blue-400 font-bold" target="_parent" href={url}>Click Here </a>or Fill This Form To Register</h1>
           <iframe className=" sm:w-11/12 sm:h-full w-full h-full aspect-[1/2] sm:aspect-[1/2] sm:align-center " src={url}></iframe></div>
       </div>
     </div>
