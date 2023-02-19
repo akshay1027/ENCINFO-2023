@@ -85,7 +85,7 @@ export const EsportseventsData = {
       bgImage: Feature1BgImg,
       title: 'Valorant',
       description:
-        'Loading ....',
+        'Easy mate, there can only be one hero!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLScKcYS1JkiAOdAN4_7oywEFyZhUC2apDJHNTPXPzlXA8P65gw/viewform',
       delay: '400',
@@ -95,7 +95,7 @@ export const EsportseventsData = {
       bgImage: Feature2BgImg,
       title: 'Fifa',
       description:
-        'Loading ....',
+        'Now is All!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSd0JJoYGR-jy5jV77zhqwmpR6hBsl0yzlmx9R1MeVXifodlTQ/viewform',
       delay: '600',
@@ -105,7 +105,7 @@ export const EsportseventsData = {
       bgImage: Feature3BgImg,
       title: 'Bgmi',
       description:
-        'Loading ....',
+        'One goal, One mission: To be the last one Standing!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSd5Res6ZQrRIF-8AhSDU4YuHPfPm9IqVUygW13VXx5FN0dOZg/viewform',
       delay: '800',
@@ -123,7 +123,7 @@ export const TechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Technical Quiz',
       description:
-        'Loading ....',
+        'A quiz on Common Tech!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSfLRaJaRYjskE71eJBxDgHBnk3PxebxaM0H681KU2-c028sXw/viewform',
       delay: '400',
@@ -133,9 +133,9 @@ export const TechnicaleventsData = {
       bgImage: Feature2BgImg,
       title: 'Line Follower||Robo Race',
       description:
-        'Loading ....',
+        'Let your robot be the Best!',
       linkText: 'Register Here',
-      url:'https://docs.google.com/forms/d/e/1FAIpQLSfkCC4Mzmg_dUqaP4AKeT5QurnKVjjzhWW40-xoBN_N-4RQHA/viewform',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSeIiPZZw5a-pGHGuJFluG0HBVmIZNiY89J1EKwPuLaYh5NJKA/viewform',
       delay: '600',
     },
     {
@@ -143,7 +143,7 @@ export const TechnicaleventsData = {
       bgImage: Feature3BgImg,
       title: 'Circuit Debugging',
       description:
-        'Loading ....',
+        'Virtual Wires are easy to connect!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSf3DHsisZ1rhUdQ7WzJ1WqKV6owg-z7WI1-vFG9bDBfErSZ9w/viewform',
       delay: '800',
@@ -153,7 +153,7 @@ export const TechnicaleventsData = {
       bgImage: Feature4BgImg,
       title: 'Paper Presentation',
       description:
-        'Loading ....',
+        'Bringing ideas to life, one Paper at a time!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSdtY5UgiC2Vd2EomvauZ-lLtS5rdqQBkobHUPHUlmg7OZPE8w/viewform',
       delay: '800',
@@ -163,7 +163,7 @@ export const TechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Discover Coding',
       description:
-        'Loading ....',
+        'When circuits meet code, innovation comes to life!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSffLNBmZdRl_gOmT_EnYDLrzIznvPSRmDavrmwGo_5I5obd9Q/viewform',
       delay: '800',
@@ -181,9 +181,9 @@ export const CulturaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Variety variety Solo',
       description:
-        'Loading ....',
+        'Step into the Rhytm of life!',
       linkText: 'Register Here',
-      url:'https://docs.google.com/forms/d/1dRDv82FpdCqAmq3k6uhq3nVF3FtcXbjzZxXe0D-GXGA/viewform',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLScnfnUlXLNkYq6MiNOliP9k3OLlTkMgWKsDk613YHwK7uiaWA/viewform',
       delay: '400',
     },
     {
@@ -191,7 +191,7 @@ export const CulturaleventsData = {
       bgImage: Feature2BgImg,
       title: 'Group Dance',
       description:
-        'Loading ....',
+        'Together we Dance! Together we Shine!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSeCY1Y-SmVltcZ7xgEaIdcsLnVZ_NMVYTBpNYn4C5iklDFGlw/viewform',
       delay: '600',
@@ -201,7 +201,7 @@ export const CulturaleventsData = {
       bgImage: Feature3BgImg,
       title: 'Adapt Tunes',
       description:
-        'Adapt yourself to the beats!!!',
+        'Feel the beat, Move your Feet!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSc7sZA7HACjsc4B0DkXncakyt29HlYdSI-haakowOD_1ir3ZA/viewform',
       delay: '800',
@@ -218,7 +218,7 @@ export const LiteraryeventsData = {
       bgImage: Feature1BgImg,
       title: 'Just a Minute',
       description:
-        'Loading ....',
+        'Speak your Mind, Beat the Clock, Win the Game!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSdYtDJO_p_Ds0xP0KVwRIMXJd8TAQnGPAzGxGnihtrlkFRVyA/viewform',
       delay: '400',
@@ -228,7 +228,7 @@ export const LiteraryeventsData = {
       bgImage: Feature2BgImg,
       title: 'Pot Pourri',
       description:
-        'Loading ....',
+        'An eclectic mix of Talent, Ideas and Creativity!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSe3jkn027zq1QNk0PXWAdXC2OmlLRMnj12ahlIABwa04xv-IA/viewform',
       delay: '600',
@@ -245,7 +245,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Movie Quiz',
       description:
-        'Loading ....',
+        'Are you a movie buff? Prove it with our movie quiz!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSc29MgOppJ-5iSirJX2CZ0GF8JS4rKNFA5mUVc6C4K4qnpNzg/viewform',
       delay: '400',
@@ -255,7 +255,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature2BgImg,
       title: 'Series Quiz',
       description:
-        'Loading ....',
+        'The Ultimate test of your TV series addiction!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSdLOt43J7GmI2meuw6J5fpSidI6Oi904QmM2XMZefI2rBbUuw/viewform',
       delay: '600',
@@ -265,7 +265,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature3BgImg,
       title: 'Treasure Hunt',
       description:
-        'Loading ....',
+        'Unlock the secrets and uncover the Treasure trove!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSeYlaBTh0OhWObOqfEIvYEAVpdWjmDw_K9Ydr5MEUyx4Tfuig/viewform',
       delay: '800',
@@ -275,7 +275,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature4BgImg,
       title: 'Reels',
       description:
-        'Loading ....',
+        'Lights, Camera, Reels! Get ready to showcase your talent!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSfRvvVmdr2uUHogsXoY8KsQ_QWHqsWcZ6lsXT4_vwsabN_Jvg/viewform',
       delay: '800',
@@ -285,7 +285,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Photography',
       description:
-        'Loading ....',
+        'Stop time with every Clicks!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSd367yGRKbwk4F8E4Hb4O6USPImpOzQnQhTetXsjqPTI7VVow/viewform',
       delay: '800',
@@ -295,7 +295,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature2BgImg,
       title: 'Short Film',
       description:
-        'Loading ....',
+        'Short on Time, Not on Impact!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSf82N7t_9JEdLe4Gur8WpLXLG7cMTNOshUXY7o5IWkffhhM3g/viewform',
       delay: '800',
@@ -305,7 +305,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature3BgImg,
       title: 'Pushup Challenge',
       description:
-        'Loading ....',
+        'Feel the burn, See the Results!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSc5LOn_KwQm7bmrhUUqs8ZUvQtwAfzXVYe0BVOxl1_62kmgaA/viewform',
       delay: '800',
@@ -315,7 +315,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature4BgImg,
       title: 'Meme Mania',
       description:
-        'Loading ....',
+        'Unleash your inner Comedian!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSdHf1usxtjGZdL3OXINeAgdSGXImeqdQPO6_KbKkhQ3FD4KSg/viewform',
       delay: '800',
@@ -325,7 +325,7 @@ export const NontechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Lyric Finding',
       description:
-        'Loading ....',
+        'Find the missing piece of our Music!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSc9tdygCcjv45gb0arsH8lig2UpXmP0yY5GNknRW8VVOO471g/viewform',
       delay: '800',
