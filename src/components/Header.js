@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import ptuLogo from '../assets/img/ptuLogo.png';
 
@@ -10,7 +10,6 @@ import { FaBars } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
 
 const Header = () => {
-  const [navMobile, setNavMobile] = useState(false);
   
   return (
     <nav className="sticky top-0 z-20 bg-white dark:bg-slate-900 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">

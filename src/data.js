@@ -123,7 +123,7 @@ export const TechnicaleventsData = {
       bgImage: Feature1BgImg,
       title: 'Technical Quiz',
       description:
-        'A quiz on Common Tech!',
+        'A quiz on General aptitude and vocabulary!',
       linkText: 'Register Here',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSfLRaJaRYjskE71eJBxDgHBnk3PxebxaM0H681KU2-c028sXw/viewform',
       delay: '400',

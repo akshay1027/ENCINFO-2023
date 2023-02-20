@@ -32,10 +32,12 @@ const Workshop = () => {
               {subtitle}
             </p>
             <a href="/workshop">
-              <button class="bg-violet-400 hover:bg-violet-700 mt-10 text-white font-bold py-2 px-4 rounded-full">
-                Register Here
+              <button disabled class="bg-violet-400  mt-10 text-white font-bold py-2 px-4 rounded-full">
+                Register Closed
               </button>
             </a>
+            <p className='pt-2 font-semibold'>Don't worry, To know more about Building a drone, Contact:</p>
+            <h3 className='text-xl font-semibold text-orange-600'>Devarajan I- 887080847</h3>
           </div>
         </div>
       </div>
