@@ -107,7 +107,7 @@ export const EsportseventsData = {
       description:
         'One goal, One mission: To be the last one Standing!',
       linkText: 'Register Here',
-      url:'https://docs.google.com/forms/d/e/1FAIpQLSd5Res6ZQrRIF-8AhSDU4YuHPfPm9IqVUygW13VXx5FN0dOZg/viewform',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLScSwkbY6vSmQhISCVm3EwK3V8m_IfHhEsxdO4u-uji30N1hUA/viewform',
       delay: '800',
     },
   ],
