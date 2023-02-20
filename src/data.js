@@ -78,7 +78,7 @@ export const WorkshopData = {
 export const EsportseventsData = {
   title: 'Esports Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: valo,
@@ -107,7 +107,7 @@ export const EsportseventsData = {
       description:
         'One goal, One mission: To be the last one Standing!',
       linkText: 'Register Here',
-      url:'https://docs.google.com/forms/d/e/1FAIpQLSd5Res6ZQrRIF-8AhSDU4YuHPfPm9IqVUygW13VXx5FN0dOZg/viewform',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLScSwkbY6vSmQhISCVm3EwK3V8m_IfHhEsxdO4u-uji30N1hUA/viewform',
       delay: '800',
     },
   ],
@@ -116,7 +116,7 @@ export const EsportseventsData = {
 export const TechnicaleventsData = {
   title: 'Technical Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: techquiz,
@@ -174,7 +174,7 @@ export const TechnicaleventsData = {
 export const CulturaleventsData = {
   title: 'Cultural Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: solosinging,
@@ -211,7 +211,7 @@ export const CulturaleventsData = {
 export const LiteraryeventsData = {
   title: 'Literary Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: jam,
@@ -238,7 +238,7 @@ export const LiteraryeventsData = {
 export const NontechnicaleventsData = {
   title: 'Non-Technical Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: moviequiz,
