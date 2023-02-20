@@ -78,7 +78,7 @@ export const WorkshopData = {
 export const EsportseventsData = {
   title: 'Esports Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: valo,
@@ -116,7 +116,7 @@ export const EsportseventsData = {
 export const TechnicaleventsData = {
   title: 'Technical Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: techquiz,
@@ -174,7 +174,7 @@ export const TechnicaleventsData = {
 export const CulturaleventsData = {
   title: 'Cultural Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: solosinging,
@@ -211,7 +211,7 @@ export const CulturaleventsData = {
 export const LiteraryeventsData = {
   title: 'Literary Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: jam,
@@ -238,7 +238,7 @@ export const LiteraryeventsData = {
 export const NontechnicaleventsData = {
   title: 'Non-Technical Events',
   subtitle:
-    'Stay Tuned!',
+    'Register Now!',
   list: [
     {
       image: moviequiz,

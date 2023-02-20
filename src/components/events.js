@@ -29,7 +29,7 @@ const TechnicalEvents = () => {
             data-aos='fade-down'
             data-aos-delay='100'
           >
-            <p className='text-rose-500 font-semibold text-2xl pb-10 py-3 dark:text-blue-200'>Registration Opens Soon!!!</p>
+            <p className='text-rose-500 font-semibold text-2xl pb-10 py-3 dark:text-blue-200'>Registrations Open!!!</p>
             {title}
           </h1>
           <p
