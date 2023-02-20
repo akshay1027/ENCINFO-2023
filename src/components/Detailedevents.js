@@ -908,7 +908,7 @@ const Detailedevents = () =>{
             <ul className="list-outside py-3" data-aos='fade-left'>
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
               <li className="py-3 text-left">1.Reena.M - 8078422438</li>
-              <li className="py-3 text-left">2.Nivedha - 84387937345</li>
+              <li className="py-3 text-left">2.Nivedha - 8438737345</li>
               </ul>
           </div>
         </div>
