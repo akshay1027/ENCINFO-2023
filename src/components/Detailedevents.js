@@ -449,7 +449,7 @@ const Detailedevents = () =>{
                 <div className='flex-1 xl:pr-12'>
                   <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.200 per head.</li>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.150 per head.</li>
                     <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. Duration - 3 minutes.</li>
                     <li className="py-3 text-left font-medium">3. Four to six songs will be played on spot.</li>
                     <li className="py-3 text-left font-medium">4. Participants should adapt themselves to the beat.</li>
@@ -989,9 +989,10 @@ const Detailedevents = () =>{
                     <li className="py-3 text-left font-medium">3. Every participant must be a college student (Id cards verification will be done).</li>
                     <li className="py-3 text-left font-medium">4. Tournament will be conducted online.</li>
                     <li className="py-3 text-left font-medium">5. Game mode: DEATHMATCH.</li>
-                    <li className="py-3 text-left font-medium">6. Single map will be played for whole tournament.(will choose by a majority vote in G-form).</li>
-                    <li className="py-3 text-left font-medium">7. Timings will be displayed in the discord server on the morning of the tournament day.</li>
-                    <li className="py-3 text-left font-medium">8. Disqualification will result from any of the following
+                    <li className="py-3 text-left font-medium">6. Three map will be played for whole tournament.(will choose by a majority vote in G-form).</li>
+                    <li className="py-3 text-left font-medium">7. Tounament conduction is explained in detail in G-form(also in discord-must join).</li>
+                    <li className="py-3 text-left font-medium">8. Timings will be displayed in the discord server on the morning of the tournament day.</li>
+                    <li className="py-3 text-left font-medium">9. Disqualification will result from any of the following
     <ul className='px-4'>
     <li>a. Any insults and unfair or disrespectful behaviors' </li>
     <li>b. If participant Didnt Report on given time slot.</li>
