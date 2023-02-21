@@ -743,7 +743,7 @@ const Detailedevents = () => {
                     <div className='flex-1 xl:pr-12'>
                       <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
                       <ul className="list-outside py-3" data-aos='fade-left'>
-                        <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. Entry fee is Rs.200/- per Team</li>
+                        <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. Entry fee is Rs.150/- per Team</li>
                         <li className="py-3 text-left text-lg text-red-500 font-semibold ">2.Questions will be asked from Hollywood and Kollywood only. There will be 4 rounds - 2 written rounds, 1 dumb charades round and 1 final round.</li>
                         <li className="py-3 text-left font-medium">3. In each round, the lowest scoring teams will be eliminated and the rest will qualify to the next round.</li>
                         <li className="py-3 text-left font-medium">4. In case of a tie for the last possible position for qualification to the next round, a tiebreaker question will be asked for those teams in contention.</li>
