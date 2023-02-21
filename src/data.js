@@ -26,7 +26,7 @@ import shortfilm from '../src/assets/img/events/shortfilm.png';
 import reel from '../src/assets/img/events/reel.png';
 import paper from '../src/assets/img/events/paper.png';
 import coding from '../src/assets/img/events/coding.png';
-// import about from '../src/assets/img/events/about.svg';
+import freefire from '../src/assets/img/events/freefire.png';
 
 //import other images
 
@@ -91,8 +91,18 @@ export const EsportseventsData = {
       delay: '400',
     },
     {
-      image: fifa1,
+      image: freefire,
       bgImage: Feature2BgImg,
+      title: 'Freefire',
+      description:
+        'Different Arena to stand out!',
+      linkText: 'Register Here',
+      url:'https://docs.google.com/forms/d/e/1FAIpQLSeMErG9qjwnj2KgZbXX-UFJD-wazVU8BD75Z_kUsKKMzNdQBw/viewform',
+      delay: '400',
+    },
+    {
+      image: fifa1,
+      bgImage: Feature3BgImg,
       title: 'Fifa',
       description:
         'Now is All!',
@@ -102,7 +112,7 @@ export const EsportseventsData = {
     },
     {
       image: pubg,
-      bgImage: Feature3BgImg,
+      bgImage: Feature4BgImg,
       title: 'Bgmi',
       description:
         'One goal, One mission: To be the last one Standing!',
