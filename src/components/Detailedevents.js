@@ -1120,6 +1120,52 @@ const Detailedevents = () =>{
             <img className='pt-10 md:mx-auto md:max-h-[60rem]' src={bgmi} />
             </div>
             }
+            {Title === "Freefire" && 
+          <div>
+             <section
+            className='my-[10px] mt-[30px]'
+            data-aos='fade-down'
+            data-aos-offset='350'
+            id="#About"
+          >
+            <div className='container mx-auto'>
+              <div className='bg-cyan-100 rounded-[50px] min-h-[240px] px-12 py-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+                <div className='flex-1 xl:pr-12'>
+                  <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
+                  <ul className="list-outside py-3" data-aos='fade-left'>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.150 per Team.</li>
+                    <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. A team must have 3-4 players.</li>
+                    <li className="py-3 text-left font-medium">3. Game mode will be casual BR  mode.</li>
+                    <li className="py-3 text-left font-medium">4. Map will be informed before the commencement of the game(bermuda or purgatory).</li>
+                    <li className="py-3 text-left font-medium">5. Players should carry their own device with the game installed, If a player found using hacks, the respective team will be disqualified.</li>
+                    <li className="py-3 text-left font-medium">6. The decision of the coordinators will be final in all aspects.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+      className='my-[10px] '
+      data-aos='fade-left'
+      data-aos-offset='350'
+      id="#About"
+    >
+      <div className='container mx-auto'>
+        <div className='bg-yellow-100 rounded-[50px] min-h-[240px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0'>
+          <div className='flex-1 xl:pr-12'>
+            <ul className="list-outside py-3" data-aos='fade-left'>
+              <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
+              <li className="py-3 text-left">1.Nirmalkumar - 8072857177</li>
+              <li className="py-3 text-left">2.Mohammad Noorul haq -  9342950947</li>
+              <li className="py-3 text-left">3.Shakthi priyan - 636920641</li>
+              
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+            </div>
+            }
             
             
            
