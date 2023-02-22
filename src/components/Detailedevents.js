@@ -486,7 +486,9 @@ const Detailedevents = () =>{
           
             {Title === "Treasure-Hunt" && 
           <div>
-             <section
+
+            <h1  data-aos='fade-up' className='text-4xl py-6 text-red-600 dark:text-yellow-200'> Registration Closed!!!</h1>
+             {/* <section
             className='my-[10px] mt-[30px]'
             data-aos='fade-down'
             data-aos-offset='350'
@@ -515,7 +517,7 @@ const Detailedevents = () =>{
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           <section
       className='my-[10px] '
       data-aos='fade-left'
@@ -1137,7 +1139,7 @@ const Detailedevents = () =>{
                     <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. A team must have 3-4 players.</li>
                     <li className="py-3 text-left font-medium">3. Game mode will be casual BR  mode.</li>
                     <li className="py-3 text-left font-medium">4. Map will be informed before the commencement of the game(bermuda or purgatory).</li>
-                    <li className="py-3 text-left font-medium">5. Players should carry their own device with the game installed, </li>
+                    <li className="py-3 text-left font-medium">5. For more details refer G-form rules and regulations </li>
                     <li className="py-3 text-left font-medium">6. If a player found using hacks, the respective team will be disqualified</li>
                     <li className="py-3 text-left font-medium">7. The decision of the coordinators will be final in all aspects.</li>
                   </ul>

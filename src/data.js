@@ -276,7 +276,7 @@ export const NontechnicaleventsData = {
       title: 'Treasure Hunt',
       description:
         'Unlock the secrets and uncover the Treasure trove!',
-      linkText: 'Register Here',
+      linkText: 'Registration Closed!',
       url:'https://docs.google.com/forms/d/e/1FAIpQLSeYlaBTh0OhWObOqfEIvYEAVpdWjmDw_K9Ydr5MEUyx4Tfuig/viewform',
       delay: '800',
     },
