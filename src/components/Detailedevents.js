@@ -1133,12 +1133,13 @@ const Detailedevents = () =>{
                 <div className='flex-1 xl:pr-12'>
                   <h1 className="text-lg text-left py-3 font-medium">Rules and Regulations: </h1>
                   <ul className="list-outside py-3" data-aos='fade-left'>
-                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.150 per Team.</li>
+                    <li className="py-3 text-left text-2xl text-violet-700 font-semibold">1. The entry fee is Rs.100 per Team.</li>
                     <li className="py-3 text-left text-lg text-red-500 font-semibold ">2. A team must have 3-4 players.</li>
                     <li className="py-3 text-left font-medium">3. Game mode will be casual BR  mode.</li>
                     <li className="py-3 text-left font-medium">4. Map will be informed before the commencement of the game(bermuda or purgatory).</li>
-                    <li className="py-3 text-left font-medium">5. Players should carry their own device with the game installed, If a player found using hacks, the respective team will be disqualified.</li>
-                    <li className="py-3 text-left font-medium">6. The decision of the coordinators will be final in all aspects.</li>
+                    <li className="py-3 text-left font-medium">5. Players should carry their own device with the game installed, </li>
+                    <li className="py-3 text-left font-medium">6. If a player found using hacks, the respective team will be disqualified</li>
+                    <li className="py-3 text-left font-medium">7. The decision of the coordinators will be final in all aspects.</li>
                   </ul>
                 </div>
               </div>
@@ -1157,7 +1158,7 @@ const Detailedevents = () =>{
               <li className="py-3 text-left text-2xl text-violet-700">For queries: </li>
               <li className="py-3 text-left">1.Nirmalkumar - 8072857177</li>
               <li className="py-3 text-left">2.Mohammad Noorul haq -  9342950947</li>
-              <li className="py-3 text-left">3.Shakthi priyan - 636920641</li>
+              <li className="py-3 text-left">3.Shakthi priyan - 636920640</li>
               
               </ul>
           </div>
